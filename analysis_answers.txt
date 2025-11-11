@@ -1,0 +1,9 @@
+1.) Quantum 5 gave the better average waiting time because each process finishes faster overall with fewer context switches.
+
+2.)If quantum = 1ms, the system would be less efficient due to cnstant context switching overhead.
+
+3.)If quantum = 20ms, Round Robin acts like FCFS since no process gets preempted.
+
+4.) With quantum = 3ms, there are 6 context switches total.
+
+5.) Round Robin prevents the convoy effect by ensuring no single long process blocks all others; everyone gets a turn.
